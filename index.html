@@ -284,6 +284,25 @@
                 >link</a
               >.
             </p>
+            <sl-dialog label="Dialog" class="dialog-overview">
+              Did you know? <br />
+              That the sense of smell in dogs is at least 40 times greater than
+              ours.
+              <sl-button slot="footer" variant="primary">Close</sl-button>
+            </sl-dialog>
+
+            <sl-button class="dialog-button">Click me for a fun fact</sl-button>
+
+            <script>
+              const dialog = document.querySelector(".dialog-overview");
+              const openButton = dialog.nextElementSibling;
+              const closeButton = dialog.querySelector(
+                'sl-button[slot="footer"]'
+              );
+
+              openButton.addEventListener("click", () => dialog.show());
+              closeButton.addEventListener("click", () => dialog.hide());
+            </script>
           </div>
         </div>
       </div>
