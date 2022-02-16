@@ -284,10 +284,10 @@
                 >link</a
               >.
             </p>
-            <sl-dialog label="Dialog" class="dialog-overview">
-              Did you know? <br />
-              That the sense of smell in dogs is at least 40 times greater than
-              ours.
+            <sl-dialog label="Fun Fact" class="dialog-overview">
+              Did you know: That the sense of smell in dogs is at least 40 times
+              greater than ours?
+
               <sl-button slot="footer" variant="primary">Close</sl-button>
             </sl-dialog>
 
@@ -333,47 +333,62 @@
             amount of plain cooked pasta or rice. Prepared meat, such as boiling
             chicken or lamb, can also be served, but no cooked bones,
             onions/onion sauces, or other poisonous elements should be included.
-            Here is a list of poisonous foods for dogs:
+            See below for a list of poisonous foods for dogs:
           </p>
-          <div class="row">
-            <div class="col-xl-6">
-              <ul>
-                <li>Alcohol</li>
-                <li>Onions</li>
-                <li>Onion powder</li>
-                <li>Garlic</li>
-                <li>Chocolate</li>
-                <li>Coffee or caffeine products</li>
-                <li>Mouldy foods, spoiled foods or compost</li>
-                <li>Avocado</li>
-                <li>Corncobs</li>
-                <li>Cooked bones</li>
-                <li>Salt</li>
-                <li>Roughly-cut vegetables</li>
-              </ul>
-            </div>
-            <div class="col-xl-6">
-              <ul>
-                <li>Bread dough</li>
-                <li>Yeast dough</li>
-                <li>
-                  Grapes, raisins, and sultanas (including in Christmas cakes
-                  etc)
-                </li>
-                <li>Currants</li>
-                <li>Nuts (including macadamia nuts)</li>
-                <li>
-                  Fruit stones or ‘pits’ (e.g. mango seeds, apricot stones,
-                  avocado stones)
-                </li>
-                <li>Mushrooms</li>
-                <li>Fruit seeds</li>
-                <li>Green unripe tomatoes</li>
-                <li>Small pieces of raw bone</li>
-                <li>Fatty trimmings/fatty foods</li>
-              </ul>
-            </div>
-          </div>
+          <sl-tab-group>
+            <sl-tab slot="nav" panel="general"><p>Toxic Foods</p></sl-tab>
+            <sl-tab slot="nav" panel="custom"><p>Edible Foods</p></sl-tab>
+
+            <sl-tab-panel name="general">
+              <div class="row">
+                <div class="col-xl-6">
+                  <ul>
+                    <li>Alcohol</li>
+                    <li>Onions</li>
+                    <li>Onion powder</li>
+                    <li>Garlic</li>
+                    <li>Chocolate</li>
+                    <li>Coffee or caffeine products</li>
+                    <li>Mouldy foods, spoiled foods or compost</li>
+                    <li>Avocado</li>
+                    <li>Corncobs</li>
+                    <li>Cooked bones</li>
+                    <li>Salt</li>
+                    <li>Roughly-cut vegetables</li>
+                  </ul>
+                </div>
+                <div class="col-xl-6">
+                  <ul>
+                    <li>Bread dough</li>
+                    <li>Yeast dough</li>
+                    <li>
+                      Grapes, raisins, and sultanas (including in Christmas
+                      cakes etc)
+                    </li>
+                    <li>Currants</li>
+                    <li>Nuts (including macadamia nuts)</li>
+                    <li>
+                      Fruit stones or ‘pits’ (e.g. mango seeds, apricot stones,
+                      avocado stones)
+                    </li>
+                    <li>Mushrooms</li>
+                    <li>Fruit seeds</li>
+                    <li>Green unripe tomatoes</li>
+                    <li>Small pieces of raw bone</li>
+                    <li>Fatty trimmings/fatty foods</li>
+                  </ul>
+                </div>
+              </div></sl-tab-panel
+            >
+            <sl-tab-panel name="custom"
+              ><p>
+                You may give you dog all other foods that are not mentioned in
+                the toxic food list. However, keep in mind, that you will need
+                to follow the proper guidelines when giving your dog any item to
+                eat.
+              </p></sl-tab-panel
+            >
+          </sl-tab-group>
           <p>
             This information has been taken from the trusted organisation, RSPCA
             Australia from their webpage

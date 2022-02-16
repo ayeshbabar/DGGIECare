@@ -31,7 +31,8 @@ h3 {
 p,
 li,
 label,
-.copyright {
+.copyright,
+sl-dialog {
   font-family: "Handlee", cursive;
   font-size: 1.2em;
   line-height: 1.7;
