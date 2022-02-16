@@ -47,7 +47,7 @@ a {
 }
 
 a:hover {
-  cursor: url(/images/svg/linkCursor.svg), pointer;
+  cursor: url(images/svg/linkCursor.svg), pointer;
   text-decoration: underline;
   color: #c2eabd;
 }
@@ -92,16 +92,16 @@ a:hover {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url(/images/svg/hamburger.svg);
+  background-image: url(images/svg/hamburger.svg);
 }
 
 [type="button"]:not(:disabled),
 button:not(:disabled) {
-  cursor: url(/images/svg/linkCursor.svg), pointer;
+  cursor: url(images/svg/linkCursor.svg), pointer;
 }
 
 .logo {
-  cursor: url(/images/svg/linkCursor.svg), pointer;
+  cursor: url(images/svg/linkCursor.svg), pointer;
 }
 
 .header-background {
@@ -109,7 +109,7 @@ button:not(:disabled) {
   min-height: 650px;
   margin-bottom: 50px;
   padding-bottom: 50px;
-  background-image: url(/images/svg/largeHeaderImage.svg);
+  background-image: url(images/svg/largeHeaderImage.svg);
   background-repeat: no-repeat;
   flex-direction: column;
   background-position: top right;
@@ -159,7 +159,7 @@ button:not(:disabled) {
 
 /* ---------------DIET STYLES--------------- */
 .dog-diet {
-  background-image: url(/images/svg/dogdiet.svg);
+  background-image: url(images/svg/dogdiet.svg);
   background-repeat: no-repeat;
 }
 
@@ -182,7 +182,7 @@ footer .copyright {
 }
 
 .svg-background {
-  background-image: url(/images/svg/footerBackground.svg);
+  background-image: url(images/svg/footerBackground.svg);
   background-repeat: no-repeat;
 }
 
@@ -195,7 +195,7 @@ footer .copyright {
 }
 
 .social-img:hover {
-  cursor: url(/images/svg/linkCursor.svg), pointer;
+  cursor: url(images/svg/linkCursor.svg), pointer;
   border: #ffffff solid 1px;
   border-radius: 50px;
 }
