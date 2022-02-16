@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.022" height="21.435" viewBox="0 0 20.022 21.435">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.511" y1="-0.055" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#011936"/>
+      <stop offset="1" stop-color="#465362"/>
+    </linearGradient>
+  </defs>
+  <g id="Cursor" transform="matrix(-0.978, -0.208, 0.208, -0.978, 17.609, 21.435)">
+    <ellipse id="Ellipse_29" data-name="Ellipse 29" cx="3.139" cy="2.22" rx="3.139" ry="2.22" transform="matrix(0.575, 0.818, -0.818, 0.575, 6.306, 11.27)" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_30" data-name="Ellipse 30" cx="3.382" cy="2.25" rx="3.382" ry="2.25" transform="translate(11.842 11.097) rotate(46.279)" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_31" data-name="Ellipse 31" cx="3.139" cy="2.22" rx="3.139" ry="2.22" transform="matrix(0.941, 0.339, -0.339, 0.941, 12.264, 1.256)" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_32" data-name="Ellipse 32" cx="3.382" cy="2.25" rx="3.382" ry="2.25" transform="translate(14.195 6.859) rotate(28.401)" fill="url(#linear-gradient)"/>
+    <path id="Path_8" data-name="Path 8" d="M10.372,5.114c.306,1.341,1.948,2.074,1.266,4.093a3.761,3.761,0,0,1-1.459,1.913c-1.767,1.192-2.908-.2-4.282-.139-1.6.069-3.5.862-5.086-.709A2.475,2.475,0,0,1,0,8.481,3.045,3.045,0,0,1,1.436,6.065a8.144,8.144,0,0,0,1.94-1.647A8.149,8.149,0,0,0,4.452,2.111,3.045,3.045,0,0,1,6.4.089,2.474,2.474,0,0,1,8.344.4C10.279,1.511,10.016,3.554,10.372,5.114Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

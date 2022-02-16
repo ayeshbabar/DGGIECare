@@ -1,0 +1,201 @@
+/* ---------------GLOBAL STYLES--------------- */
+* {
+  scroll-behavior: smooth;
+  cursor: url(/images/svg/Cursor.svg), default;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fredoka One", cursive;
+  color: #011936;
+}
+
+h1 {
+  font-size: 2.7em;
+}
+
+h2 {
+  font-size: 2.2em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+p,
+li,
+label,
+.copyright {
+  font-family: "Handlee", cursive;
+  font-size: 1.2em;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  color: #011936;
+}
+
+a {
+  color: #ed254e;
+  text-decoration: none;
+  font-family: "Handlee", cursive;
+  transition: color 0.5s;
+}
+
+a:hover {
+  cursor: url(/images/svg/linkCursor.svg), pointer;
+  text-decoration: underline;
+  color: #c2eabd;
+}
+
+/* ---------------NAVBAR & HEADER STYLES--------------- */
+.navbar {
+  padding: 0;
+  backdrop-filter: blur(5px);
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  background-color: #f9dc5c;
+  color: #ed254e;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border: none;
+  background-color: #ed254e;
+  color: #ffffff;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 25px;
+  float: right;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ed254e;
+  background-color: #f9dc5c;
+}
+
+.navbar-light .navbar-toggler {
+  color: #ed254e;
+  border: none;
+  background-color: #f9dc5c;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(/images/svg/hamburger.svg);
+}
+
+[type="button"]:not(:disabled),
+button:not(:disabled) {
+  cursor: url(/images/svg/linkCursor.svg), pointer;
+}
+
+.logo {
+  cursor: url(/images/svg/linkCursor.svg), pointer;
+}
+
+.header-background {
+  height: auto;
+  min-height: 650px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  background-image: url(/images/svg/largeHeaderImage.svg);
+  background-repeat: no-repeat;
+  flex-direction: column;
+  background-position: top right;
+  background-size: contain;
+  background-origin: border-box;
+}
+
+.heading {
+  padding-top: 300px;
+  padding-bottom: 15px;
+}
+
+.heading-p,
+.header-dog {
+  float: right;
+}
+
+/* ---------------INTRODUCTION STYLES--------------- */
+
+#introduction {
+  margin-bottom: 50px;
+}
+
+/* ---------------EXERSICE STYLES--------------- */
+.ball {
+  padding: 10px;
+  padding-top: 164px;
+}
+
+.shape {
+  padding-top: 40px;
+}
+
+.no-padding-left {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.no-padding-right {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.leash {
+  padding-top: 32px;
+}
+
+/* ---------------DIET STYLES--------------- */
+.dog-diet {
+  background-image: url(/images/svg/dogdiet.svg);
+  background-repeat: no-repeat;
+}
+
+.padding-top {
+  padding-top: 120px;
+}
+
+/* ---------------GALLERY STYLES--------------- */
+.carousel {
+  margin-bottom: 72px;
+  margin-top: 72px;
+}
+
+/* ---------------FOOTER STYLES--------------- */
+
+footer p,
+footer label,
+footer .copyright {
+  font-size: 0.9em;
+}
+
+.svg-background {
+  background-image: url(/images/svg/footerBackground.svg);
+  background-repeat: no-repeat;
+}
+
+.social {
+  padding-top: 40px;
+}
+
+.social-img {
+  margin: 15px;
+}
+
+.social-img:hover {
+  cursor: url(/images/svg/linkCursor.svg), pointer;
+  border: #ffffff solid 1px;
+  border-radius: 50px;
+}
