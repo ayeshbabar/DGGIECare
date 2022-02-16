@@ -292,17 +292,6 @@
             </sl-dialog>
 
             <sl-button class="dialog-button">Click me for a fun fact</sl-button>
-
-            <script>
-              const dialog = document.querySelector(".dialog-overview");
-              const openButton = dialog.nextElementSibling;
-              const closeButton = dialog.querySelector(
-                'sl-button[slot="footer"]'
-              );
-
-              openButton.addEventListener("click", () => dialog.show());
-              closeButton.addEventListener("click", () => dialog.hide());
-            </script>
           </div>
         </div>
       </div>
@@ -572,6 +561,8 @@
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
+    <!-- ------------ MY SCRIPT TAG ------------ -->
+    <script src="JS/main.js"></script>
     <!-- ------------ SHOELACE SCRIPT TAG ------------ -->
     <script
       type="module"
