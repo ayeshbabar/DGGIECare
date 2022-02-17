@@ -53,6 +53,11 @@ a:hover {
   color: #c2eabd;
 }
 
+body[data-aos-duration="1000"] [data-aos],
+[data-aos][data-aos][data-aos-duration="1000"] {
+  transition-duration: 1000ms;
+}
+
 /* ---------------NAVBAR & HEADER STYLES--------------- */
 .navbar {
   padding: 0;

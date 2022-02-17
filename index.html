@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOGGIECare</title>
     <link rel="shortcut icon" href="images/favicon.ico" type=“image/x-icon”>
+    <!-- ------------ AOS LIBRARY ------------ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- ------------ MDBOOTSTRAP ------------ -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -203,7 +205,7 @@
             alt="Woman walking her dog"
           />
         </div>
-        <div class="col-xl-7">
+        <div class="col-xl-7" data-aos="fade-left" data-aos-duration="1000">
           <h2>Introduction</h2>
           <p>
             It is critical for your dog's general wellbeing and health to feed
@@ -239,7 +241,7 @@
     <section id="dog-exercise" class="container">
       <div class="row">
         <div class="col">
-          <div class="margin">
+          <div data-aos="fade-right" data-aos-duration="1000">
             <h2>Dog Exercise</h2>
             <p>
               Puppies will grow up into adult dogs at different times, depending
@@ -297,7 +299,7 @@
                 alt="Two balls"
               />
             </div>
-            <div class="col-xl-7 margin">
+            <div class="col-xl-7" data-aos="fade-left" data-aos-duration="1000">
               <h3>Adult Dog</h3>
               <p>
                 For adult dogs, the intensity of the workout depends on the
@@ -334,7 +336,7 @@
               </p>
             </div>
           </div>
-          <div class="margin">
+          <div data-aos="fade-right" data-aos-duration="1000">
             <h3>Senior Dog</h3>
             <p>
               Because of their movement constraints, older dogs' physical and
@@ -385,7 +387,11 @@
     <!-- ------------ DOG DIET ------------ -->
     <section id="dog-diet" class="dog-diet container">
       <div class="row">
-        <div class="col margin padding-top">
+        <div
+          class="col padding-top"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <h2>Dog Diet</h2>
           <p>
             It's vital to remember that each dog is unique, and what works for
@@ -494,7 +500,7 @@
     <!-- ------------ CONCLUSION ------------ -->
     <section id="conclusion" class="container">
       <div class="row">
-        <div class="col margin">
+        <div class="col" data-aos="fade-right" data-aos-duration="1000">
           <h2>Conclusion</h2>
           <p>
             Congratulations and well done to those of you who have reaced the
@@ -659,9 +665,12 @@
       >
         © 2020 Copyright: DoggieCare - A project of RSPCA Australia
       </div>
-      <!-- Copyright -->
     </footer>
-    <!-- Footer -->
+    <!-- ------------ AOS LIBRARY SCRIPT TAG ------------ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- ------------ ANIMAEJS SCRIPT TAG ------------ -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <!-- ------------ SHOELACE SCRIPT TAG ------------ -->
