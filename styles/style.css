@@ -206,7 +206,7 @@ button:not(:disabled) {
 
 /* ---------------ANIMATION STYLES--------------- */
 .animate {
-  padding: 50px;
+  padding: 0 50px 50px 50px;
   animation: bounce 3.14s linear 0s infinite alternate;
 }
 
