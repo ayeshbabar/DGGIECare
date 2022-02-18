@@ -68,11 +68,6 @@ body[data-aos-duration="1000"] [data-aos],
   background-color: rgba(225, 225, 225, 0.2) !important;
 }
 
-.navbar-light .navbar-nav .nav-link.active {
-  background-color: #f9dc5c;
-  color: #ed254e;
-}
-
 .navbar-light .navbar-nav .nav-link {
   border: none;
   background-color: #ed254e;
