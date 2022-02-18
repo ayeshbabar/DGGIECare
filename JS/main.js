@@ -29,9 +29,3 @@ anime
     easing: "easeOutExpo",
     delay: 1000,
   });
-
-// Adding and removing class .active from nav links
-const intro = document.querySelector("#intro-link");
-const exercise = document.querySelector("#exercise-link");
-const diet = document.querySelector("#diet-link");
-const conclusion = document.querySelector("#conclusion-link");
