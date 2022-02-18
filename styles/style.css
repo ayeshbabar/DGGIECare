@@ -152,14 +152,14 @@ button:not(:disabled) {
 }
 
 #dog {
-  animation: bounce 1s ease-in-out infinite alternate;
+  animation: jump 1s ease-in-out infinite alternate;
 }
 
-@keyframes bounce {
-  from {
+@keyframes jump {
+  0% {
     transform: translateY(0);
   }
-  to {
+  100% {
     transform: translateY(-20px);
   }
 }
@@ -202,6 +202,35 @@ button:not(:disabled) {
 
 .padding-top {
   padding-top: 120px;
+}
+
+/* ---------------ANIMATION STYLES--------------- */
+.animate {
+  padding: 50px;
+  animation: bounce 3.14s linear 0s infinite alternate;
+}
+
+.redball {
+  margin: 30px;
+  animation: bounce1 1.03s ease 0s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(calc(80vw - 10vmin));
+  }
+}
+
+@keyframes bounce1 {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(calc(20vh - 10vmin));
+  }
 }
 
 /* ---------------GALLERY STYLES--------------- */
