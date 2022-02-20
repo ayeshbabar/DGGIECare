@@ -96,7 +96,8 @@ body[data-aos-duration="1000"] [data-aos],
   transition: color 0.5s, background-color 0.5s;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
   color: #ed254e;
   background-color: #f9dc5c;
 }
