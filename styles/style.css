@@ -164,19 +164,6 @@ button:not(:disabled) {
   float: right;
 }
 
-#dog {
-  animation: jump 1s ease-in-out infinite alternate;
-}
-
-@keyframes jump {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-20px);
-  }
-}
-
 /* ---------------INTRODUCTION STYLES--------------- */
 
 #introduction {
@@ -205,6 +192,20 @@ button:not(:disabled) {
 
 .leash {
   padding-top: 32px;
+}
+
+.follow-exercise-path {
+  position: relative;
+  width: 1000px;
+  margin: auto;
+}
+
+.emoji {
+  position: absolute;
+  font-size: 40px;
+  line-height: 28px;
+  top: -14px;
+  left: -20px;
 }
 
 /* ---------------DIET STYLES--------------- */

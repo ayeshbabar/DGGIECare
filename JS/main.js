@@ -13,7 +13,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(
   "<span class='letter'>$&</span>"
 );
 
-anime
+let lettersAnimation = anime
   .timeline({ loop: true })
   .add({
     targets: ".ml6 .letter",
@@ -85,4 +85,16 @@ function highlightActiveMenu() {
 
 window.addEventListener("scroll", () => {
   highlightActiveMenu();
+});
+
+// svg animation
+var path = anime.path("#animate-svg path");
+anime({
+  targets: "#emoji",
+  translateX: path("x"),
+  translateY: path("y"),
+  rotate: path("angle"),
+  easing: "linear",
+  duration: 7000,
+  loop: true,
 });
