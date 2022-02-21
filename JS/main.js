@@ -95,6 +95,6 @@ anime({
   translateY: path("y"),
   rotate: path("angle"),
   easing: "linear",
-  duration: 7000,
+  duration: 9000,
   loop: true,
 });
