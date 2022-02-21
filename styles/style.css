@@ -208,6 +208,12 @@ button:not(:disabled) {
   left: -20px;
 }
 
+@media only screen and (max-width: 900px) {
+  .display-none {
+    display: none;
+  }
+}
+
 /* ---------------DIET STYLES--------------- */
 .dog-diet {
   background-image: url(../images/svg/dogdiet.svg);
