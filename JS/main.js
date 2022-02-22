@@ -6,7 +6,8 @@ const closeButton = dialog.querySelector('sl-button[slot="footer"]');
 openButton.addEventListener("click", () => dialog.show());
 closeButton.addEventListener("click", () => dialog.hide());
 
-// JS code from anime.js for the animation of letters (Lin n.d.).
+// JS code from  Moving Letters by (Lin n.d.) adapted from
+// anime.js.
 var textWrapper = document.querySelector(".ml6 .letters");
 textWrapper.innerHTML = textWrapper.textContent.replace(
   /\S/g,

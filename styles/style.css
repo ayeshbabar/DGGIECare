@@ -70,6 +70,8 @@ a:hover {
   color: #c2eabd;
 }
 
+/* This segment of code has been picked up from the AOS 
+Library to add scroll interaction (Sajnóg [2015] 2022). */
 body[data-aos-duration="1000"] [data-aos],
 [data-aos][data-aos][data-aos-duration="1000"] {
   transition-duration: 1000ms;
@@ -141,10 +143,12 @@ button:not(:disabled) {
   padding-bottom: 15px;
 }
 
+/* These styles for .ml6, .letter, and .text-wrapper have 
+been picked up from  Moving Letters by (Lin n.d.) adapted from 
+anime.js */
 .ml6 {
   position: relative;
 }
-
 .ml6 .text-wrapper {
   position: relative;
   display: inline-block;
@@ -153,7 +157,6 @@ button:not(:disabled) {
   padding-bottom: 0.1em;
   overflow: hidden;
 }
-
 .ml6 .letter {
   display: inline-block;
   line-height: 1em;
@@ -171,29 +174,6 @@ button:not(:disabled) {
 }
 
 /* ---------------EXERSICE STYLES--------------- */
-.ball {
-  padding: 10px;
-  padding-top: 164px;
-}
-
-.shape {
-  padding-top: 40px;
-}
-
-.no-padding-left {
-  margin-left: 0;
-  padding-left: 0;
-}
-
-.no-padding-right {
-  margin-right: 0;
-  padding-right: 0;
-}
-
-.leash {
-  padding-top: 32px;
-}
-
 .follow-exercise-path {
   position: relative;
   width: 1000px;
@@ -225,16 +205,16 @@ button:not(:disabled) {
 }
 
 /* ---------------ANIMATION STYLES--------------- */
+/* All styles in this section have been adapted from a 
+YouTube titorial (Live Blogger 2020). */
 .animate {
   padding: 0 50px 50px 50px;
   animation: bounce 3.14s linear 0s infinite alternate;
 }
-
 .redball {
   margin: 30px;
   animation: bounce1 1.03s ease 0s infinite alternate;
 }
-
 @keyframes bounce {
   0% {
     transform: translateX(0px);
@@ -243,7 +223,6 @@ button:not(:disabled) {
     transform: translateX(calc(80vw - 10vmin));
   }
 }
-
 @keyframes bounce1 {
   0% {
     transform: translateY(0px);
@@ -285,3 +264,9 @@ footer .copyright {
   border: #ffffff solid 1px;
   border-radius: 50px;
 }
+
+/* REFERENCE LIST
+Lin, Toshibah. n.d. ‘Moving Letters’. Accessed 16 February 2022. https://tobiasahlin.com/moving-letters/.
+Live Blogger. 2020. How To Animate SVG With CSS. https://www.youtube.com/watch?v=KLU4PUd7N14.
+Sajnóg, Michał. (2015) 2022. Michalsnik/Aos. JavaScript. https://github.com/michalsnik/aos.
+ */
