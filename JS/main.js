@@ -89,7 +89,8 @@ function isSectionVisible(section) {
 
 // This function returns the id if a section if the section is visibile.
 //  It does this by checking the value of the function isSectionVisible().
-// If its value is true, it will return the id, otherwise it will not.
+// If visibleSection has a value, it will return the id, otherwise
+// it will not.
 function getVisibleSectionId() {
   const visibleSection = sections.find(isSectionVisible);
 
