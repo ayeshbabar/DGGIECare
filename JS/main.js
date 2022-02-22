@@ -1,3 +1,7 @@
+// jshint sub:true
+// The top most comment has been added to remove an error given by the
+// JS validator. Please ignore it.
+
 // JS Code from Shoelace UI Components for the dialog (Shoelace n.d.).
 const dialog = document.querySelector(".dialog-overview");
 const openButton = dialog.nextElementSibling;
